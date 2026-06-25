@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PSM Sports Analytics — FootballOS · Your club, unified</title>
+  <meta name="description" content="FootballOS by PSM Sports Analytics — the operating system for the modern football club. Scouting, recruitment, performance and coaching in one unified platform, powered by Opta, StatsBomb, SkillCorner, ASA and TransferRoom data." />
+  <meta name="theme-color" content="#ffffff" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="PSM Sports Analytics — FootballOS" />
+  <meta property="og:description" content="Your club, unified. Scouting, recruitment, performance and coaching in one operating system." />
+  <meta property="og:type" content="website" />
+
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600;700;800&family=Oswald:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+
+  <!-- ───────────────────────── NAV ───────────────────────── -->
+  <header class="nav" id="nav">
+    <div class="container nav-inner">
+      <a class="brand" href="#top" aria-label="PSM Sports Analytics — Your club, unified">
+        <span class="brand-word">PSM</span>
+        <span class="brand-sub">Sports&nbsp;Analytics</span>
+      </a>
+
+      <nav class="nav-links" id="navLinks" aria-label="Primary">
+        <a href="#platform">Platform</a>
+        <a href="#modules">Modules</a>
+        <a href="#intelligence">Intelligence</a>
+        <a href="#data">Data</a>
+        <a href="#why">Why PSM</a>
+        <a class="btn btn-gold nav-cta" href="#contact">Request a demo</a>
+      </nav>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="top">
+
+    <!-- ───────────────────────── HERO ───────────────────────── -->
+    <section class="hero">
+      <div class="hero-bg" aria-hidden="true"></div>
+      <div class="container hero-inner">
+        <div class="hero-copy reveal">
+          <p class="eyebrow"><span class="dot"></span> PSM Sports Analytics · FootballOS</p>
+          <h1>The operating system for the <em>modern football club.</em></h1>
+          <p class="lead">Scouting, recruitment, performance and coaching — every department working from one source of truth, in one login. <strong>Your club, unified.</strong></p>
+          <div class="hero-cta">
+            <a class="btn btn-gold" href="#contact">Request a demo</a>
+            <a class="btn btn-outline" href="#platform">Explore the platform</a>
+          </div>
+        </div>
+
+        <!-- Hero product mockup: Coaching / Performance dashboard -->
+        <div class="hero-visual reveal">
+          <div class="frame">
+            <div class="frame-bar">
+              <span class="dotr r"></span><span class="dotr y"></span><span class="dotr g"></span>
+              <span class="frame-url">app.yourclub.psm.io / dashboard</span>
+            </div>
+            <div class="mock mock-dash">
+              <div class="mk-head">
+                <div class="mk-title"><span class="mk-crest"></span> Matchday Control Center</div>
+                <div class="mk-toggle"><span class="on">L6</span><span>Season</span></div>
+              </div>
+              <div class="mk-tiles">
+                <div class="mk-tile">
+                  <span class="mk-tile-label">Matches Remaining</span>
+                  <span class="mk-tile-val">11</span>
+                </div>
+                <div class="mk-tile">
+                  <span class="mk-tile-label">On Pace For</span>
+                  <span class="mk-tile-val pos">54<small>pts</small></span>
+                  <span class="mk-tile-foot">Top 4 line · +6</span>
+                </div>
+                <div class="mk-tile">
+                  <span class="mk-tile-label">Goal Difference</span>
+                  <span class="mk-tile-val pos">+9</span>
+                </div>
+                <div class="mk-tile">
+                  <span class="mk-tile-label">xG Net</span>
+                  <span class="mk-tile-val pos">+4.8</span>
+                </div>
+              </div>
+              <div class="mk-row2">
+                <div class="mk-panel mk-standings">
+                  <div class="mk-panel-h">Western Conference <span>xPts</span></div>
+                  <div class="mk-tr hot"><span class="mk-rank">3</span><span class="mk-team"><i class="mk-d" style="background:linear-gradient(135deg,#9fd9f5,#4aa6da)"></i><span class="mk-team-name">Minnesota United</span></span><span class="mk-pts">42</span><span class="mk-xp">40.2</span></div>
+                  <div class="mk-tr"><span class="mk-rank">4</span><span class="mk-team"><i class="mk-d" style="background:linear-gradient(135deg,#cda86a,#1a1a1a)"></i><span class="mk-team-name">LAFC</span></span><span class="mk-pts">41</span><span class="mk-xp">38.7</span></div>
+                  <div class="mk-tr"><span class="mk-rank">5</span><span class="mk-team"><i class="mk-d" style="background:linear-gradient(135deg,#6bbf59,#3f8a2e)"></i><span class="mk-team-name">Seattle Sounders</span></span><span class="mk-pts">39</span><span class="mk-xp">37.1</span></div>
+                  <div class="mk-tr"><span class="mk-rank">6</span><span class="mk-team"><i class="mk-d" style="background:linear-gradient(135deg,#0a3a8a,#06245d)"></i><span class="mk-team-name">LA Galaxy</span></span><span class="mk-pts">36</span><span class="mk-xp">35.9</span></div>
+                </div>
+                <div class="mk-panel mk-form">
+                  <div class="mk-panel-h">Recent Form</div>
+                  <div class="mk-dots"><i class="w">W</i><i class="w">W</i><i class="d">D</i><i class="w">W</i><i class="l">L</i><i class="w">W</i></div>
+                  <div class="mk-pct">78<small>%</small> <span>points won</span></div>
+                  <div class="mk-bars">
+                    <div class="mk-kpi"><span>Field Tilt</span><b class="g">61%</b></div>
+                    <div class="mk-kpi"><span>Open-Play xG p90</span><b class="g">1.74</b></div>
+                    <div class="mk-kpi"><span>PPDA</span><b class="a">9.2</b></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="hero-badge">Live xPoints · Poisson model</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ───────────────────────── LOGO / STATS BAND ───────────────────────── -->
+    <section class="stats-band">
+      <div class="container stats">
+        <div class="stat reveal"><span class="stat-num" data-count="25" data-suffix="+">0</span><span class="stat-cap">Integrated modules, one login</span></div>
+        <div class="stat reveal"><span class="stat-num" data-count="6" data-suffix="">0</span><span class="stat-cap">Elite data sources fused</span></div>
+        <div class="stat reveal"><span class="stat-num" data-count="5" data-suffix="">0</span><span class="stat-cap">In-house models &amp; engines</span></div>
+      </div>
+    </section>
+
+    <!-- ───────────────────────── PLATFORM / OS NARRATIVE ───────────────────────── -->
+    <section class="section" id="platform">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow"><span class="dot"></span> One platform, not ten</p>
+          <h2>Stop stitching together spreadsheets, video tools and disconnected dashboards.</h2>
+          <p class="section-lead">Most clubs run scouting in one tool, performance in another, and recruitment in a folder of Excel files. PSM replaces that sprawl with a single operating system — every department, every data provider and every decision in one place.</p>
+        </div>
+
+        <div class="bento reveal">
+          <div class="bento-card big">
+            <div class="bento-icon">⚽</div>
+            <h3>From first scout note to signed contract</h3>
+            <p>A player flows seamlessly from a scout's report, into a shadow team, onto the recruitment board, through the proposals inbox and into squad planning — never re-typed, never lost between tools.</p>
+            <ul class="bento-list">
+              <li>Shared player identity across every module</li>
+              <li>Cross-source ID linkage (Opta · StatsBomb · ASA · TransferRoom)</li>
+              <li>Role-based access for directors, scouts, analysts &amp; coaches</li>
+            </ul>
+          </div>
+          <div class="bento-card">
+            <div class="bento-icon">🧭</div>
+            <h3>Multi-tenant by design</h3>
+            <p>Each club gets its own branded, isolated workspace — colours, crest, language and squad — from a single codebase.</p>
+          </div>
+          <div class="bento-card">
+            <div class="bento-icon">🌐</div>
+            <h3>Speaks your language</h3>
+            <p>Fully localised for your staff — every label, date, number format and clock follows their language.</p>
+          </div>
+          <div class="bento-card">
+            <div class="bento-icon">🔒</div>
+            <h3>Your data, isolated</h3>
+            <p>Per-club databases and read-only roles keep every club's scouting intelligence private and secure.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ───────────────────────── MODULES GRID ───────────────────────── -->
+    <section class="section section-dark" id="modules">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow"><span class="dot"></span> The modules</p>
+          <h2>Everything your football department does, in one OS.</h2>
+          <p class="section-lead">Six pillars covering the full club workflow — each deep enough to replace a standalone tool, all sharing the same data and design.</p>
+        </div>
+
+        <div class="modules">
+          <article class="module-card reveal">
+            <div class="mc-ico">📝</div>
+            <h3>Scouting &amp; Reports</h3>
+            <p>Rich, position-aware scouting reports with attribute grids, watched-matches, draft autosave &amp; resume, URL auto-fill and one-click PDF export.</p>
+            <ul><li>Single &amp; multi-player reports</li><li>Quill rich-text analysis</li><li>Excel &amp; PDF export</li></ul>
+          </article>
+
+          <article class="module-card reveal">
+            <div class="mc-ico">🎯</div>
+            <h3>Recruitment Intelligence</h3>
+            <p>A transfer-window funnel from longlist to deal, fed by AI-suggested targets that match your tactical style and clear your KPI floors.</p>
+            <ul><li>Style-fit target engine</li><li>Pipeline &amp; funnel stages</li><li>Proposals quick-capture inbox</li></ul>
+          </article>
+
+          <article class="module-card reveal">
+            <div class="mc-ico">👥</div>
+            <h3>Shadow Teams</h3>
+            <p>Build depth charts on a live pitch — manually drag-and-drop, or let the engine auto-pick the top performers per position.</p>
+            <ul><li>Manual &amp; KPI-driven auto</li><li>Up to 30 named teams per scout</li><li>"Who else has this player" flags</li></ul>
+          </article>
+
+          <article class="module-card reveal">
+            <div class="mc-ico">📊</div>
+            <h3>Player Intelligence</h3>
+            <p>A complete player profile: radars, heatmaps, similar-player search, physical scores, position pitch maps and an auto-generated PDF dossier.</p>
+            <ul><li>Radar &amp; heatmap visuals</li><li>k-NN similar players</li><li>SkillCorner physical score</li></ul>
+          </article>
+
+          <article class="module-card reveal">
+            <div class="mc-ico">🏟️</div>
+            <h3>Performance &amp; Coaching</h3>
+            <p>Coach-facing dashboards: KPI pillars, win-correlation, set pieces, goal timing, league projections and live expected-points tables.</p>
+            <ul><li>6 tactical KPI pillars</li><li>Win-correlation studies</li><li>Live xPoints projections</li></ul>
+          </article>
+
+          <article class="module-card reveal">
+            <div class="mc-ico">🧬</div>
+            <h3>Player Pathway &amp; Planning</h3>
+            <p>Track development through the pathway, monitor contracts, and plan future-season squads on a pitch and matrix view.</p>
+            <ul><li>Pathway &amp; reserve tracking</li><li>Contract &amp; expiry monitor</li><li>Future-season squad planner</li></ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ───────────────────────── DEEP DIVE: COACHING ───────────────────────── -->
+    <section class="section" id="intelligence">
+      <div class="container">
+        <div class="section-head reveal narrow">
+          <p class="eyebrow"><span class="dot"></span> Intelligence that earns its place</p>
+          <h2>Models built for football decisions — not generic charts.</h2>
+        </div>
+
+        <!-- Feature 1 -->
+        <div class="feature reveal">
+          <div class="feature-copy">
+            <span class="feature-kicker">Performance &amp; Coaching</span>
+            <h3>Know where the season is heading — before it gets there.</h3>
+            <p>The Matchday Control Center projects your final points from live form, ranks every team in your conference by expected points using an in-house Poisson model, and grades your tactical KPIs against the whole league.</p>
+            <ul class="feature-list">
+              <li><b>Live xPoints</b> from shot-quality, not the table</li>
+              <li><b>On-pace projections</b> coloured by margin to your target</li>
+              <li><b>Six KPI pillars</b> — pressing, transition, build-up, finishing, set pieces</li>
+              <li>Click any metric for the full <b>league ranking</b></li>
+            </ul>
+          </div>
+          <div class="feature-visual">
+            <div class="frame">
+              <div class="frame-bar"><span class="dotr r"></span><span class="dotr y"></span><span class="dotr g"></span><span class="frame-url">/performance · KPI pillars</span></div>
+              <div class="mock mock-pillars">
+                <div class="mk-pillar">
+                  <div class="mk-pillar-h"><span>PRESSING</span><span class="ring elite">ELITE</span></div>
+                  <div class="mk-metric"><span>PPDA</span><div class="mk-track"><i style="width:84%"></i></div><b class="g">8.4</b><em>#2/14</em></div>
+                  <div class="mk-metric"><span>FT Regains p90</span><div class="mk-track"><i style="width:71%"></i></div><b class="g">6.1</b><em>#4/14</em></div>
+                  <div class="mk-metric"><span>Def. Duel Win %</span><div class="mk-track"><i style="width:62%"></i></div><b class="a">54%</b><em>#6/14</em></div>
+                </div>
+                <div class="mk-pillar">
+                  <div class="mk-pillar-h"><span>BUILD ATTACKS</span><span class="ring target">TARGET</span></div>
+                  <div class="mk-metric"><span>Open-Play xG p90</span><div class="mk-track"><i style="width:88%"></i></div><b class="g">1.74</b><em>#1/14</em></div>
+                  <div class="mk-metric"><span>Field Tilt %</span><div class="mk-track"><i style="width:67%"></i></div><b class="g">61%</b><em>#5/14</em></div>
+                  <div class="mk-metric"><span>Box Touches p90</span><div class="mk-track"><i style="width:58%"></i></div><b class="a">23.1</b><em>#7/14</em></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Feature 2 -->
+        <div class="feature feature--reverse reveal">
+          <div class="feature-copy">
+            <span class="feature-kicker">Recruitment · Style-Fit Engine</span>
+            <h3>Targets that actually fit how you play.</h3>
+            <p>Instead of a generic stats leaderboard, PSM surfaces the under-26 players who match <em>your</em> team's tactical style, clear your KPI and defensive floors, and don't have a report yet — ranked by a composite of style fit, percentile and value.</p>
+            <ul class="feature-list">
+              <li><b>Style Fit %</b> from a bespoke tactical engine</li>
+              <li><b>Season ⇄ Career</b> KPI models</li>
+              <li>Automatically <b>excludes players you've already covered</b></li>
+              <li>Flags if a colleague already shadow-listed them</li>
+            </ul>
+          </div>
+          <div class="feature-visual">
+            <div class="frame">
+              <div class="frame-bar"><span class="dotr r"></span><span class="dotr y"></span><span class="dotr g"></span><span class="frame-url">/dashboard · AI-suggested targets</span></div>
+              <div class="mock mock-targets">
+                <div class="mk-tg-head">AI-Suggested Targets <span class="mk-pill">Style fit ≥ 50%</span></div>
+                <div class="mk-tg-row">
+                  <span class="mk-face f1"></span>
+                  <div class="mk-tg-id"><b>L. Andersen</b><small>RW · 21 · Eliteserien</small></div>
+                  <div class="mk-fit"><span class="mk-fit-bar"><i style="width:86%"></i></span><b>86%</b></div>
+                </div>
+                <div class="mk-tg-row">
+                  <span class="mk-face f2"></span>
+                  <div class="mk-tg-id"><b>D. Marques</b><small>CM · 23 · Liga Portugal 2</small></div>
+                  <div class="mk-fit"><span class="mk-fit-bar"><i style="width:79%"></i></span><b>79%</b></div>
+                </div>
+                <div class="mk-tg-row">
+                  <span class="mk-face f3"></span>
+                  <div class="mk-tg-id"><b>K. Owusu</b><small>ST · 20 · MLS Next Pro</small></div>
+                  <div class="mk-fit"><span class="mk-fit-bar"><i style="width:74%"></i></span><b>74%</b></div>
+                </div>
+                <div class="mk-tg-row">
+                  <span class="mk-face f4"></span>
+                  <div class="mk-tg-id"><b>S. Ibrahim</b><small>CB · 22 · Allsvenskan</small></div>
+                  <div class="mk-fit"><span class="mk-fit-bar"><i style="width:68%"></i></span><b>68%</b></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Feature 3 -->
+        <div class="feature reveal">
+          <div class="feature-copy">
+            <span class="feature-kicker">Player Intelligence</span>
+            <h3>One profile that ends the tab-switching.</h3>
+            <p>Bio, valuation, percentile radar, on/off-ball heatmaps, position pitch map, similar players, physical profile and recent form — every angle on a player on a single screen, exportable as a branded PDF dossier in one click.</p>
+            <ul class="feature-list">
+              <li><b>Percentile radars</b> vs league &amp; minutes cohort</li>
+              <li><b>Heatmaps</b> with territory hull &amp; PNG export</li>
+              <li><b>Similar players</b> via cosine k-NN on skill vectors</li>
+              <li><b>One-click PDF</b> scouting report</li>
+            </ul>
+          </div>
+          <div class="feature-visual">
+            <div class="frame">
+              <div class="frame-bar"><span class="dotr r"></span><span class="dotr y"></span><span class="dotr g"></span><span class="frame-url">/analytics · player profile</span></div>
+              <div class="mock mock-profile">
+                <div class="mk-pf-left">
+                  <div class="mk-pf-bio">
+                    <span class="mk-face big f2"></span>
+                    <div><b>D. Marques</b><small>Central Midfield</small><span class="mk-padj">PAdj <b>92</b><i>pctl</i></span></div>
+                  </div>
+                  <!-- Radar SVG -->
+                  <svg class="mk-radar" viewBox="0 0 200 200" aria-hidden="true">
+                    <g fill="none" stroke="rgba(255,255,255,.12)">
+                      <polygon points="100,18 169,59 169,141 100,182 31,141 31,59"/>
+                      <polygon points="100,46 145,72 145,128 100,154 55,128 55,72"/>
+                      <polygon points="100,74 121,86 121,114 100,126 79,114 79,86"/>
+                    </g>
+                    <g stroke="rgba(255,255,255,.08)">
+                      <line x1="100" y1="100" x2="100" y2="18"/><line x1="100" y1="100" x2="169" y2="59"/>
+                      <line x1="100" y1="100" x2="169" y2="141"/><line x1="100" y1="100" x2="100" y2="182"/>
+                      <line x1="100" y1="100" x2="31" y2="141"/><line x1="100" y1="100" x2="31" y2="59"/>
+                    </g>
+                    <polygon points="100,30 158,66 150,132 100,166 47,128 44,68"
+                      fill="rgba(219,192,120,.22)" stroke="#dbc078" stroke-width="2"/>
+                    <g fill="#dbc078">
+                      <circle cx="100" cy="30" r="2.6"/><circle cx="158" cy="66" r="2.6"/><circle cx="150" cy="132" r="2.6"/>
+                      <circle cx="100" cy="166" r="2.6"/><circle cx="47" cy="128" r="2.6"/><circle cx="44" cy="68" r="2.6"/>
+                    </g>
+                  </svg>
+                </div>
+                <div class="mk-pf-right">
+                  <div class="mk-pf-h">On-ball heatmap</div>
+                  <div class="mk-heat" id="heatGrid"></div>
+                  <div class="mk-pf-bars">
+                    <div class="mk-kpi"><span>Physical Score</span><b class="g">81</b></div>
+                    <div class="mk-kpi"><span>Progressive Passes</span><b class="g">94<i>p</i></b></div>
+                    <div class="mk-kpi"><span>Pressure Regains</span><b class="a">71<i>p</i></b></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Feature 4 -->
+        <div class="feature feature--reverse reveal">
+          <div class="feature-copy">
+            <span class="feature-kicker">Shadow Teams</span>
+            <h3>Your depth chart, alive on the pitch.</h3>
+            <p>Plan succession and recruitment visually. Drag players into formation slots, keep up to 30 named boards per scout, and aggregate the whole department into one master shadow team — or let the KPI engine build it for you.</p>
+            <ul class="feature-list">
+              <li><b>Manual</b> drag-and-drop or <b>AI auto-pick</b></li>
+              <li>5 formation presets, fully customisable</li>
+              <li>Quick-assign straight from any player profile</li>
+              <li>Master team aggregates every scout's picks</li>
+            </ul>
+          </div>
+          <div class="feature-visual">
+            <div class="frame">
+              <div class="frame-bar"><span class="dotr r"></span><span class="dotr y"></span><span class="dotr g"></span><span class="frame-url">/shadow-team · 4-3-3</span></div>
+              <div class="mock mock-pitch">
+                <svg viewBox="0 0 300 200" class="pitch-svg" aria-hidden="true">
+                  <rect x="0" y="0" width="300" height="200" rx="6" fill="#123a22"/>
+                  <g stroke="rgba(255,255,255,.35)" fill="none" stroke-width="1">
+                    <rect x="6" y="6" width="288" height="188" rx="3"/>
+                    <line x1="150" y1="6" x2="150" y2="194"/>
+                    <circle cx="150" cy="100" r="26"/>
+                    <rect x="6" y="58" width="34" height="84"/>
+                    <rect x="260" y="58" width="34" height="84"/>
+                  </g>
+                  <g class="chips" font-family="Inter" font-size="8" text-anchor="middle">
+                    <g><circle cx="24" cy="100" r="9"/><text x="24" y="103">GK</text></g>
+                    <g><circle cx="80" cy="40" r="9"/><text x="80" y="43">LB</text></g>
+                    <g><circle cx="80" cy="80" r="9"/><text x="80" y="83">CB</text></g>
+                    <g><circle cx="80" cy="120" r="9"/><text x="80" y="123">CB</text></g>
+                    <g><circle cx="80" cy="160" r="9"/><text x="80" y="163">RB</text></g>
+                    <g><circle cx="150" cy="60" r="9"/><text x="150" y="63">CM</text></g>
+                    <g><circle cx="150" cy="100" r="9"/><text x="150" y="103">CM</text></g>
+                    <g><circle cx="150" cy="140" r="9"/><text x="150" y="143">CM</text></g>
+                    <g><circle cx="225" cy="50" r="9"/><text x="225" y="53">LW</text></g>
+                    <g><circle cx="240" cy="100" r="9"/><text x="240" y="103">ST</text></g>
+                    <g><circle cx="225" cy="150" r="9"/><text x="225" y="153">RW</text></g>
+                  </g>
+                </svg>
+                <div class="mk-pitch-foot">Master Shadow Team · 6 scouts aggregated</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ───────────────────────── AI ASSISTANT BANNER ───────────────────────── -->
+    <section class="section ai-band">
+      <div class="container ai-inner reveal">
+        <div class="ai-copy">
+          <p class="eyebrow gold"><span class="dot"></span> AI Lab · Chief Scout assistant</p>
+          <h2>Ask your database in plain language.</h2>
+          <p class="section-lead">"Find me left-footed under-23 centre-backs in the Nordic leagues above the 80th percentile for progressive passing." The Chief Scout AI answers from your own data and returns clickable results that drop straight into an assignment.</p>
+        </div>
+        <div class="ai-chat">
+          <div class="ai-msg user">Show U23 wingers, high carry volume, value under €3M</div>
+          <div class="ai-msg bot">
+            <span class="ai-bot-tag">Chief Scout</span>
+            Found 7 matches. Top 3 by style fit:
+            <span class="ai-link">→ L. Andersen · RW · 21 · 86% fit</span>
+            <span class="ai-link">→ K. Owusu · ST/RW · 20 · 74% fit</span>
+            <span class="ai-link">→ M. Sané · LW · 22 · 71% fit</span>
+            <span class="ai-cta">＋ Add all to assignment</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ───────────────────────── DATA PARTNERS ───────────────────────── -->
+    <section class="section" id="data">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow"><span class="dot"></span> The data layer</p>
+          <h2>Every elite source, fused into one truth.</h2>
+          <p class="section-lead">PSM ingests and reconciles the best providers in the game — linking player identities across sources so a StatsBomb event, an Opta rating and a TransferRoom valuation all describe the same player.</p>
+        </div>
+        <div class="partners reveal">
+          <div class="partner"><b>Opta</b><small>Stats Perform — events &amp; ratings</small></div>
+          <div class="partner"><b>StatsBomb</b><small>Granular event &amp; KPI data</small></div>
+          <div class="partner"><b>SkillCorner</b><small>Physical &amp; tracking metrics</small></div>
+          <div class="partner"><b>ASA</b><small>American Soccer Analysis — g+</small></div>
+          <div class="partner"><b>TransferRoom</b><small>Valuations &amp; market intel</small></div>
+          <div class="partner"><b>Transfermarkt</b><small>Identity &amp; market value</small></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ───────────────────────── WHY PSM / DIFFERENTIATORS ───────────────────────── -->
+    <section class="section section-dark" id="why">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow"><span class="dot"></span> Why PSM</p>
+          <h2>What makes FootballOS different.</h2>
+        </div>
+        <div class="why-grid reveal">
+          <div class="why-card">
+            <span class="why-num">01</span>
+            <h3>Unified, not bolted-together</h3>
+            <p>Scouting, recruitment, performance and coaching share one data model. No exports, no re-keying, no version drift between departments.</p>
+          </div>
+          <div class="why-card">
+            <span class="why-num">02</span>
+            <h3>Football-specific models</h3>
+            <p>Position-adjusted percentiles, a Poisson xPoints engine, a tactical style-fit score and a physical profile built with sports-science methodology — not generic BI.</p>
+          </div>
+          <div class="why-card">
+            <span class="why-num">03</span>
+            <h3>Built around your club</h3>
+            <p>Your crest, your colours, your formation taxonomy, your grading scales and your language — configured per club from day one.</p>
+          </div>
+          <div class="why-card">
+            <span class="why-num">04</span>
+            <h3>Fast where it matters</h3>
+            <p>Heavy analytics are pre-computed and cached, so coaches and scouts get answers in milliseconds on matchday, not minutes.</p>
+          </div>
+          <div class="why-card">
+            <span class="why-num">05</span>
+            <h3>Decisions, end to end</h3>
+            <p>A target moves from AI suggestion → report → shadow team → recruitment funnel → squad plan without ever leaving the platform.</p>
+          </div>
+          <div class="why-card">
+            <span class="why-num">06</span>
+            <h3>Secure &amp; private</h3>
+            <p>Isolated per-club databases, role-based permissions and read-only data roles keep your edge yours.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ───────────────────────── HOW IT WORKS ───────────────────────── -->
+    <section class="section" id="how">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow"><span class="dot"></span> Onboarding</p>
+          <h2>Your club, online in three steps.</h2>
+        </div>
+        <div class="steps reveal">
+          <div class="step">
+            <span class="step-n">1</span>
+            <h3>Connect your data</h3>
+            <p>We plug in your data providers and squad, then reconcile identities across every source automatically.</p>
+          </div>
+          <div class="step-line"></div>
+          <div class="step">
+            <span class="step-n">2</span>
+            <h3>We configure your club</h3>
+            <p>Branding, language, positions, grading scales and roles are tailored to how your department actually works.</p>
+          </div>
+          <div class="step-line"></div>
+          <div class="step">
+            <span class="step-n">3</span>
+            <h3>Your staff works unified</h3>
+            <p>Scouts, analysts, directors and coaches log in to one platform — and stop emailing spreadsheets forever.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ───────────────────────── PLANS ───────────────────────── -->
+    <section class="section section-dark" id="plans">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow"><span class="dot"></span> Two ways in</p>
+          <h2>Start with recruitment. Grow into the full OS.</h2>
+          <p class="section-lead"><strong>Scout</strong> covers your entire recruitment operation. <strong>FootballOS</strong> adds team performance and coaching on top — the complete platform. Every deployment is tailored and priced per club.</p>
+        </div>
+        <div class="plans reveal">
+          <div class="plan">
+            <h3>Scout</h3>
+            <p class="plan-sub">Recruitment &amp; scouting — without team performance.</p>
+            <ul>
+              <li>Scouting reports, drafts &amp; PDF dossiers</li>
+              <li>Shadow teams — manual &amp; AI auto</li>
+              <li>AI-Suggested Targets &amp; Style-Fit engine</li>
+              <li>Recruitment pipeline &amp; proposals inbox</li>
+              <li>Squad planning &amp; contract tracking</li>
+              <li>AI Chief Scout assistant</li>
+            </ul>
+            <a class="btn btn-outline full" href="#contact">Request pricing</a>
+          </div>
+          <div class="plan plan--featured">
+            <span class="plan-flag">Everything</span>
+            <h3>FootballOS</h3>
+            <p class="plan-sub">The complete operating system.</p>
+            <ul>
+              <li>Everything in <b>Scout</b>, plus…</li>
+              <li>Advanced player analytics — radars, heatmaps &amp; similar players</li>
+              <li>Performance &amp; coaching dashboards</li>
+              <li>6 tactical KPI pillars &amp; win-correlation</li>
+              <li>Set pieces, goal timing &amp; live xPoints</li>
+              <li>League table, season tracker &amp; projections</li>
+              <li>Team style of play &amp; player pathway</li>
+              <li>Multi-tenant, branded, full support</li>
+            </ul>
+            <a class="btn btn-gold full" href="#contact">Request a demo</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ───────────────────────── FINAL CTA ───────────────────────── -->
+    <section class="cta-final" id="contact">
+      <div class="container cta-inner reveal">
+        <p class="eyebrow"><span class="dot"></span> Your club, unified</p>
+        <h2>Bring your whole football operation online.</h2>
+        <p class="cta-lead">Book a walkthrough of FootballOS with your own squad and data. We'll show you what a unified club looks like.</p>
+        <div class="cta-actions">
+          <a class="btn btn-gold lg" href="mailto:pedromeneses31@psmanalytics.com?subject=FootballOS%20demo%20request">Request a demo</a>
+          <a class="btn btn-outline lg" href="mailto:pedromeneses31@psmanalytics.com">Talk to us</a>
+        </div>
+        <p class="cta-mail">pedromeneses31@psmanalytics.com</p>
+      </div>
+    </section>
+  </main>
+
+  <!-- ───────────────────────── FOOTER ───────────────────────── -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <a class="brand" href="#top">
+          <span class="brand-word">PSM</span>
+          <span class="brand-sub">Sports&nbsp;Analytics</span>
+        </a>
+        <p class="footer-tag">FootballOS — <em>your club, unified.</em></p>
+      </div>
+      <nav class="footer-cols">
+        <div>
+          <h4>Platform</h4>
+          <a href="#modules">Modules</a>
+          <a href="#intelligence">Intelligence</a>
+          <a href="#data">Data layer</a>
+          <a href="#plans">Plans</a>
+        </div>
+        <div>
+          <h4>Company</h4>
+          <a href="#why">Why PSM</a>
+          <a href="#how">How it works</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <div>
+          <h4>Get in touch</h4>
+          <a href="mailto:pedromeneses31@psmanalytics.com">pedromeneses31@psmanalytics.com</a>
+          <a href="#contact">Request a demo</a>
+        </div>
+      </nav>
+    </div>
+    <div class="container footer-base">
+      <span>© <span id="year">2026</span> PSM Sports Analytics. All rights reserved.</span>
+      <span class="footer-note">Your club, unified.</span>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
